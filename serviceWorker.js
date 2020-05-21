@@ -10,7 +10,7 @@ var urlsToCache = [
     "offline.html",
     "img/fireflower.jpg",
     "js/poke_type_database.js",
-    "js/poke_aishou.js",
+    "js/poke_aishou.js"
 ];
 
 // 残したいキャッシュのバージョンをこの配列に入れる
