@@ -8,7 +8,9 @@ var urlsToCache = [
     "js/bootstrap.js",
     "logo/logo192.png",
     "offline.html",
-    "img/fireflower.jpg"
+    "img/fireflower.jpg",
+    "js/poke_type_database.js",
+    "js/poke_aishou.js",
 ];
 
 // 残したいキャッシュのバージョンをこの配列に入れる
