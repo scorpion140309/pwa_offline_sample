@@ -2,7 +2,7 @@
   "name": "flowerbook",
   "short_name": "FB",
   "icons": [{
-        "src": "logo/logo192.png",
+        "src": "logo/app-icon-192.png",
         "sizes": "192x192",
         "type": "image/png"
       }],

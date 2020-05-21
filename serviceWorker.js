@@ -6,9 +6,7 @@ var urlsToCache = [
     "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js",
     "css/bootstrap.css",
     "js/bootstrap.js",
-    "logo/logo192.png",
-    "offline.html",
-    "img/fireflower.jpg",
+    "logo/app-icon-192.png",
     "js/poke_type_database.js",
     "js/poke_aishou.js"
 ];
