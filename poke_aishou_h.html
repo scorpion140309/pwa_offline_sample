@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<script type="text/javascript" src="./js/poke_type_database.js"></script>
+<script type="text/javascript" src="./js/poke_aishou.js"></script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+	<head>
+		<title>title hoge</title>
+        <link rel="stylesheet" type="text/css" href="main_h.css">
+	</head>
+
+	<body onload="ExeAll()">
+		<form name="formName" method="post" action="./pathToProgramFile">
+
+			<table border="1">
+				<td>
+					<!-- 1匹目 -->
+					<input name="radio_0" type="radio" value="type_single" onchange="Disp1(0)"> 単一タイプ
+					<input name="radio_0" type="radio" value="type_multi" onchange="Disp1(0)" checked="true"> 複合タイプ
+
+					<p>
+						<select id="id0_0" name = "poke_type_0" onchange="Disp1(0)"></select>
+						<select id="id0_1" name = "poke_type_1" onchange="Disp1(0)"></select>
+					</p>
+			
+					<table border="1">
+						<tr>
+							<th>ダメージ倍率</th>
+							<th>攻撃タイプ</th>
+						</tr>
+						<tr>
+							<td>×2.56</td>
+							<td><input type="text" id="id_txt_0_0" size="32" value=""></td>
+						</tr>
+						<tr>
+							<td>×1.6</td>
+							<td><input type="text" id="id_txt_0_1" size="32" value=""></td>
+						</tr>
+						<tr>
+							<td>×1.0</td>
+							<td><input type="text" id="id_txt_0_2" size="32" value=""></td>
+						</tr>
+						<tr>
+							<td>×0.625</td>
+							<td><input type="text" id="id_txt_0_3" size="32" value=""></td>
+						</tr>
+						<tr>
+							<td>×0.39</td>
+							<td><input type="text" id="id_txt_0_4" size="32" value=""></td>
+						</tr>
+						<tr>
+							<td>×0.244</td>
+							<td><input type="text" id="id_txt_0_5" size="32" value=""></td>
+						</tr>
+					</table>
+				</td>
+
+				<td>
+					<!-- 2匹目 -->
+					<input name="radio_1" type="radio" value="type_single" onchange="Disp1(1)"> 単一タイプ
+					<input name="radio_1" type="radio" value="type_multi" onchange="Disp1(1)" checked="true"> 複合タイプ
+
+					<p>
+						<select id="id1_0" name = "poke_type_0" onchange="Disp1(1)"></select>
+						<select id="id1_1" name = "poke_type_1" onchange="Disp1(1)"></select>
+					</p>
+					<table border="1">
+						<tr>
+							<th>ダメージ倍率</th>
+							<th>攻撃タイプ</th>
+						</tr>
+						<tr>
+							<td>×2.56</td>
+							<td><input type="text" id="id_txt_1_0" size="32" value=""></td>
+						</tr>                                   
+						<tr>                                    
+							<td>×1.6</td>                     
+							<td><input type="text" id="id_txt_1_1" size="32" value=""></td>
+						</tr>                                   
+						<tr>                                    
+							<td>×1.0</td>                     
+							<td><input type="text" id="id_txt_1_2" size="32" value=""></td>
+						</tr>                                   
+						<tr>                                    
+							<td>×0.625</td>                   
+							<td><input type="text" id="id_txt_1_3" size="32" value=""></td>
+						</tr>                                   
+						<tr>                                    
+							<td>×0.39</td>                    
+							<td><input type="text" id="id_txt_1_4" size="32" value=""></td>
+						</tr>                                   
+						<tr>                                    
+							<td>×0.244</td>                   
+							<td><input type="text" id="id_txt_1_5" size="32" value=""></td>
+						</tr>
+					</table>
+				</td>
+
+				<td>
+					<!-- 3匹目 -->
+					<input name="radio_2" type="radio" value="type_single" onchange="Disp1(2)"> 単一タイプ
+					<input name="radio_2" type="radio" value="type_multi" onchange="Disp1(2)" checked="true"> 複合タイプ
+
+					<p>
+						<select id="id2_0" name = "poke_type_0" onchange="Disp1(2)"></select>
+						<select id="id2_1" name = "poke_type_1" onchange="Disp1(2)"></select>
+					</p>
+					<table border="1">
+						<tr>
+							<th>ダメージ倍率</th>
+							<th>攻撃タイプ</th>
+						</tr>
+						<tr>
+							<td>×2.56</td>
+							<td><input type="text" id="id_txt_2_0" size="32" value=""></td>
+						</tr>
+						<tr>
+							<td>×1.6</td>                     
+							<td><input type="text" id="id_txt_2_1" size="32" value=""></td>
+						</tr>
+						<tr>
+							<td>×1.0</td>                     
+							<td><input type="text" id="id_txt_2_2" size="32" value=""></td>
+						</tr>
+						<tr>
+							<td>×0.625</td>
+							<td><input type="text" id="id_txt_2_3" size="32" value=""></td>
+						</tr>
+						<tr>
+							<td>×0.39</td>
+							<td><input type="text" id="id_txt_2_4" size="32" value=""></td>
+						</tr>
+						<tr>
+							<td>×0.244</td>
+							<td><input type="text" id="id_txt_2_5" size="32" value=""></td>
+						</tr>
+					</table>
+				</td>
+
+			</table>
+
+		</form>
+
+		<p><a href="index.html">もどる</a></p>
+
+	</body>
+</html>

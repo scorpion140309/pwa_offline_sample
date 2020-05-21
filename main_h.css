@@ -1,0 +1,34 @@
+body
+{
+	background-color : #e1e1e1;
+	color : #404040;
+	font-size: 12pt;
+}
+input
+{
+	font-size: 12pt;
+}
+input[type="radio"]
+{
+	transform: scale(2.0);
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+select
+{
+	font-size: 12pt;
+}
+
+a:link { color: #4040ff; }
+a:visited { color: #404080; }
+a:hover { color: #ff0000; }
+a:active { color: #ff8000; }
+
+
+#container
+{
+	padding:10px;
+	border:1px solid #336699;
+	background-color:#ffffff;
+}
