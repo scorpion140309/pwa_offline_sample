@@ -1,6 +1,6 @@
 {
-  "name": "flowerbook",
-  "short_name": "FB",
+  "name": "ポケモン タイプ別ダメージ率",
+  "short_name": "ダメージ率",
   "icons": [{
         "src": "logo/app-icon-192.png",
         "sizes": "192x192",
