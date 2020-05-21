@@ -3,9 +3,8 @@ var CACHE_NAME  = "fb-cache-v8-10";
 var urlsToCache = [
     "index.html",
     "favicon.ico",
-    "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js",
-    "css/bootstrap.css",
-    "js/bootstrap.js",
+    //"css/bootstrap.css",
+    //"js/bootstrap.js",
     "logo/app-icon-192.png",
     "js/poke_type_database.js",
     "js/poke_aishou.js"
